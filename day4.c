@@ -9,5 +9,16 @@ int main()
     printf("%d\n", a < b);
     printf("%d\n", a == b);
 
+
+
+    int age = 25;
+    if(age >= 18 && age <= 60)
+    
+        {
+            printf("you are eligible ");
+        }
+
     return 0;
+
+
 }
