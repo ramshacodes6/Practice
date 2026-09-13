@@ -8,4 +8,5 @@ int main()
     printf("Length = %d", strlen(name));
 
     return 0;
+    
 }
