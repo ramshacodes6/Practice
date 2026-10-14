@@ -1,13 +1,17 @@
-int arr[4] = {12, 45, 23, 9};
-int *p = arr;
-int largest = *p;
+#include <stdio.h>
 
-for(int i = 1; i < 4; i++)
+int main(void)
 {
-    if(*(p + i) > largest)
-    {
-        largest = *(p + i);
-    }
-}
+    int arr[4] = {12, 45, 23, 9};
+    int *p = arr;
+    int largest = *p;
 
-printf("%d", largest);
+    for (int i = 1; i < 4; i++) {
+        if (*(p + i) > largest) {
+            largest = *(p + i);
+        }
+    }
+
+    printf("%d\n", largest);
+    return 0;
+}
